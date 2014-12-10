@@ -59,7 +59,6 @@
                         <input type="text" class="form-control" id="productDescription" placeholder="Ingrese Descripcion" name="productDescription" value="<%=request.getParameter("productDescription")%>">
                     </div>
             </div>
-          <th>MSRP</th>
             
             <div class="form-group" >
                 <label class="control-label col-xs-2" for="quantityInStock" >Cantidad en Stock:</label>
