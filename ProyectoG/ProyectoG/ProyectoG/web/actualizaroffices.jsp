@@ -1,5 +1,5 @@
 <%-- 
-    Document   : actualizarcustomer
+    Document   : actualizaroffices
     Created on : 27/11/2014, 09:06:36 PM
     Author     : Julian Salinas 
 --%>
@@ -24,7 +24,7 @@
             
  
         <form class="form-horizontal" role="form" action="ControladorG" method="post">
-            <input type="hidden" name="pagina" value="actualizarCustomers">
+            <input type="hidden" name="pagina" value="actualizarOffices">
             
               <h1 class="page-header">
           <img src="img/soporte1.png" width="73" height="69">
