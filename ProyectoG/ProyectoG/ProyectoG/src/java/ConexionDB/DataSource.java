@@ -16,7 +16,7 @@ public class DataSource {
                 Connection c = null;
                 try{
                     Class.forName("com.mysql.jdbc.Driver");
-                    c=DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"classicmodels","root","RedCod25");
+                    c=DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"classicmodels","odintec","RedCod25");
                     
                     
                 }catch(Exception e)

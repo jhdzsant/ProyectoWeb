@@ -5,15 +5,7 @@
  */
 package ctl;
 
-import DatosIngresa.EmpresaDAO;
-import DatosIngresa.Customers;
-import DatosIngresa.Employess;
-import DatosIngresa.Offices;
-import DatosIngresa.Orderdetails;
-import DatosIngresa.Orders;
-import DatosIngresa.Payments;
-import DatosIngresa.Productlines;
-import DatosIngresa.Products;
+import DatosIngresa.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -186,7 +178,7 @@ public class ControladorG extends HttpServlet {
       protected void actualizarCustomer(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-         response.setContentType("text/html;charset=UTF-8");
+        
         Customers cus = new Customers();
          
          cus.setCustomerNumber(Integer.parseInt(request.getParameter("customerNumber")));
@@ -292,7 +284,7 @@ public class ControladorG extends HttpServlet {
       protected void actualizarEmployess(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-         response.setContentType("text/html;charset=UTF-8");
+         
          Employess emp= new Employess();
          
          emp.setEmployeeNumber(Integer.parseInt(request.getParameter("EmployeeNumber")));
@@ -327,7 +319,7 @@ public class ControladorG extends HttpServlet {
          
         Employess emp= new Employess();
          
-         emp.setEmployeeNumber(Integer.parseInt(request.getParameter("EmployeeNumber")));
+         emp.setEmployeeNumber(Integer.parseInt(request.getParameter("employeeNumber")));
          
          
          
@@ -336,7 +328,7 @@ public class ControladorG extends HttpServlet {
        boolean b = au.borraremployess(emp);
        if(b)
        {
-           response.sendRedirect("borraremployess.jsp");
+           response.sendRedirect("borraremployees.jsp");
            System.out.println(b);
        }
        else
@@ -373,7 +365,7 @@ public class ControladorG extends HttpServlet {
            System.out.println(b);
        }
        else
-           response.sendRedirect("altaoffice.jsp");
+           response.sendRedirect("altaoficina.jsp");
            
      }
     
@@ -389,7 +381,7 @@ public class ControladorG extends HttpServlet {
             session.setAttribute("consultaOffices", lista);
             
         
-        response.sendRedirect("consultaOffices.jsp");
+        response.sendRedirect("consultaoffices.jsp");
     }
     
       protected void actualizarOffices(HttpServletRequest request, HttpServletResponse response)
@@ -472,7 +464,7 @@ public class ControladorG extends HttpServlet {
            System.out.println(b);
        }
        else
-           response.sendRedirect("altaorderdetails.jsp");
+           response.sendRedirect("altaordersdetails.jsp");
            
      }
     
@@ -494,7 +486,7 @@ public class ControladorG extends HttpServlet {
       protected void actualizarOrderdetails(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-         response.setContentType("text/html;charset=UTF-8");
+        
         Orderdetails ord = new Orderdetails();
          
          ord.setOrderNumber(Integer.parseInt(request.getParameter("orderNumber")));
@@ -592,8 +584,8 @@ public class ControladorG extends HttpServlet {
       protected void actualizarOrders(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-         response.setContentType("text/html;charset=UTF-8");
-        Orders ord = new Orders();
+        
+               Orders ord = new Orders();
 
          ord.setOrderNumber(Integer.parseInt(request.getParameter("orderNumber")));
          ord.setOrderDate(request.getParameter("orderDate"));
@@ -687,7 +679,7 @@ public class ControladorG extends HttpServlet {
       protected void actualizarPayments(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-         response.setContentType("text/html;charset=UTF-8");
+        
         Payments pay = new Payments();
          
          pay.setCustomerNumber(Integer.parseInt(request.getParameter("paytomerNumber")));
@@ -877,8 +869,7 @@ public class ControladorG extends HttpServlet {
       protected void actualizarProducts(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
     {
-         response.setContentType("text/html;charset=UTF-8");
-        Products pro = new Products();
+         Products pro = new Products();
          pro.setProductCode(request.getParameter("productCode"));
          pro.setProductName(request.getParameter("productName"));
          pro.setProductLine(request.getParameter("productLine"));

@@ -342,7 +342,7 @@ public class EmpresaDAO {
         try{
             
             c = new DataSource().getConexion();
-            String sql = " deleted from employees employeeNumber=?,";
+            String sql = " delete from employees employeeNumber=?";
             
             p = c.prepareStatement(sql);
             if( o instanceof Employess){
@@ -382,7 +382,7 @@ public class EmpresaDAO {
         try
         {
             c = new DataSource().getConexion();
-            String sql = "INSERT INTO employees (officeCode,city,phone,addressLine1,addressLine2,state,country,postalCode,territory)"
+            String sql = "INSERT INTO offices (officeCode,city,phone,addressLine1,addressLine2,state,country,postalCode,territory)"
                     + "values(?,?,?,?,?,?,?,?,?)";
             p = c.prepareStatement(sql);
             if(o instanceof Offices)
@@ -399,7 +399,7 @@ public class EmpresaDAO {
             p.setString(9,of.getTerritory());
             
             int r = p.executeUpdate();
-            if(r<0)
+            if(r > 0)
             {
                 boolean a = true;
                 System.out.println("Se inserto");
@@ -487,7 +487,7 @@ public class EmpresaDAO {
             p.setString(9, of.getOfficeCode());
             int r = p.executeUpdate();
                     
-                    if(r < 0)
+                    if(r > 0)
                     {
                         boolean a=true;
                         System.out.println("Se  Actualizo"+a);
@@ -513,8 +513,8 @@ public class EmpresaDAO {
         try{
             
             c = new DataSource().getConexion();
-            String sql = " deleted from offices "
-                    + "officeCode=?,";
+            String sql = " delete from offices "
+                    + "officeCode=?";
             
             p = c.prepareStatement(sql);
             if( o instanceof Offices){
@@ -524,7 +524,7 @@ public class EmpresaDAO {
             
             int r = p.executeUpdate();
                     
-                    if(r < 0)
+                    if(r > 0)
                     {
                         boolean a=true;
                         System.out.println("Se elimino "+a);
@@ -669,8 +669,8 @@ public class EmpresaDAO {
         try{
             
             c = new DataSource().getConexion();
-            String sql = " deleted from orderdetails "
-                    + "orderNumber=?,";
+            String sql = " delete from orderdetails "
+                    + "orderNumber=?";
             
             p = c.prepareStatement(sql);
             if( o instanceof Orderdetails){
@@ -834,8 +834,8 @@ public class EmpresaDAO {
         try{
             
             c = new DataSource().getConexion();
-            String sql = " deleted from orders "
-                    + "orderNumber=?,";
+            String sql = " delete from orders "
+                    + "orderNumber=?";
             
             p = c.prepareStatement(sql);
             if( o instanceof Orders){
@@ -1339,10 +1339,5 @@ public class EmpresaDAO {
             e.printStackTrace();
         }
         return b;
-    }
-    
-    
-    
-    
-    
+    }    
 }

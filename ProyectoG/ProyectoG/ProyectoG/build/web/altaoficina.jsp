@@ -29,7 +29,7 @@
             
               <h1 class="page-header">
           <img src="img/soporte1.png" width="73" height="69">
-              Alta <small>Por favor llena el formulario</small>
+              Alta <small>Por favor llena el formulario de oficina</small>
   </h1>
 
             
@@ -39,7 +39,12 @@
                         <input type="text" class="form-control" id="officeCode" placeholder="Ingrese la Clave de la oficina" name="officeCode" required>
                     </div>
             </div>
-            
+             <div class="form-group" >
+                <label class="control-label col-xs-2" for="city" >Ciudad:</label>
+                    <div class="col-xs-3">                
+                        <input type="text" class="form-control" id="city" placeholder="Ingrese Ciudad" name="city" required>
+                    </div>
+            </div>
 
             <div class="form-group" >
                 <label class="control-label col-xs-2" for="phone" >Telefono:</label>
@@ -62,13 +67,13 @@
             
             
             <div class="form-group" >
-                <label class="control-label col-xs-2" for="city" >Ciudad:</label>
-                    <div class="col-xs-3">  
-                        <input type="text" class="form-control" id="city" placeholder="Ingresa ciudad" name="city" required>
-                    </div>
                 <label class="control-label col-xs-2" for="state" >Estado:</label>
                     <div class="col-xs-3">  
                         <input type="text" class="form-control" id="state" placeholder="Ingrese Estado" name="state" required>
+                    </div>
+                <label class="control-label col-xs-2" for="country" >Pais:</label>
+                    <div class="col-xs-3">  
+                        <input type="text" class="form-control" id="country" placeholder="Ingrese Estado" name="country" required>
                     </div>
             </div>
             
@@ -78,7 +83,7 @@
                     <div class="col-xs-3">  
                         <input type="text" class="form-control" id="postalCode" placeholder="Ingresa Codigo Postal" name="postalCode" required>
                     </div> 
-                <label class="control-label col-xs-2" for="territory" >Pais:</label>
+                <label class="control-label col-xs-2" for="territory" >Territorio:</label>
                     <div class="col-xs-3">  
                         <input type="text" class="form-control" id="territory" placeholder="Ingresa pais" name="territory" required>
                     </div>
@@ -90,7 +95,7 @@
             <div class="form-group">
                 <div class="col-xs-offset-2 col-xs-3">
                     <button type="submit" class="btn btn-primary">Guardar</button>
-                    <a href="Controlador?paginaCustomer=altaOffice" class="btn btn-default" role="button">Consulta</a>
+                    <a href="ControladorG?pagina=consultaOffice" class="btn btn-default" role="button">Consulta</a>
                 </div>
             </div>
         </form>
