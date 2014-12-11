@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <!Seccion de librerias>
 <%@page import="java.util.*" %>
-<%@page import="productLineDAO.productLine" %>
-<%@page import="ctl.productLineServlet" %>
+<%@page import="DatosIngresa.*" %>
+<%@page import="ctl.*" %>
 
 <html>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
