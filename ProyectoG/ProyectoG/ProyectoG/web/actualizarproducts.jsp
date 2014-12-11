@@ -1,5 +1,5 @@
 <%-- 
-    Document   : actualizarcustomer
+    Document   : actualizarproductos
     Created on : 27/11/2014, 09:06:36 PM
     Author     : Julian Salinas 
 --%>
@@ -14,7 +14,7 @@
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Actualiza Oficina.</title>
+        <title>Actualiza Productos.</title>
         <jsp:include page="header.jsp" flush="true"/>
     </head>
     <body>
@@ -83,7 +83,7 @@
             <div class="form-group">
                 <div class="col-xs-offset-2 col-xs-3">
                     <button type="submit" class="btn btn-primary">Guardar</button>
-                    <a href="Controlador?paginaOrder=altaProduct" class="btn btn-default" role="button">Consulta</a>
+                    <a href="Controlador?paginaProducts=altaProducts" class="btn btn-default" role="button">Consulta</a>
                 </div>
             </div>
         </form>
