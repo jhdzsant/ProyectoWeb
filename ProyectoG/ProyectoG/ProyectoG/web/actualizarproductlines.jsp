@@ -23,7 +23,7 @@
         <div class="container">
 
         <form class="form-horizontal" role="form" action="ControladorG" method="post">
-            <input type="hidden" name="pagina" value="actualizarProductLines">
+            <input type="hidden" name="pagina" value="actualizarProductlines">
             
               <h1 class="page-header">
           <img src="img/soporte1.png" width="73" height="69">
@@ -61,7 +61,7 @@
             <div class="form-group">
                 <div class="col-xs-offset-2 col-xs-3">
                     <button type="submit" class="btn btn-primary">Guardar</button>
-                    <a href="Controlador?paginaOrder=altaProductLine" class="btn btn-default" role="button">Consulta</a>
+                    <a href="Controlador?paginaOrders=altaProductlines" class="btn btn-default" role="button">Consulta</a>
                 </div>
             </div>
         </form>
