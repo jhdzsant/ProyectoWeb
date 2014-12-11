@@ -52,7 +52,7 @@ public class EmpresaDAO {
             
             int r = p.executeUpdate();
                     
-                    if(r < 0)
+                    if(r > 0)
                     {
                         boolean a=true;
                         System.out.println("Se inserto Correctamente"+a);
@@ -145,7 +145,7 @@ public class EmpresaDAO {
             p.setInt(13, cus.getCustomerNumber());
             int r = p.executeUpdate();
                     
-                    if(r < 0)
+                    if(r > 0)
                     {
                         boolean a=true;
                         System.out.println("Se  Actualizo"+a);
@@ -184,7 +184,7 @@ public class EmpresaDAO {
             
             int r = p.executeUpdate();
                     
-                    if(r < 0)
+                    if(r > 0)
                     {
                         boolean a=true;
                         System.out.println("Se elimino "+a);
@@ -231,7 +231,7 @@ public class EmpresaDAO {
             
             int r = p.executeUpdate();
                     
-                    if(r < 0)
+                    if(r > 0)
                     {
                         boolean a=true;
                         System.out.println("Se inserto Correctamente"+a);
@@ -352,7 +352,7 @@ public class EmpresaDAO {
             
             int r = p.executeUpdate();
                     
-                    if(r < 0)
+                    if(r > 0)
                     {
                         boolean a=true;
                         System.out.println("Se elimino "+a);

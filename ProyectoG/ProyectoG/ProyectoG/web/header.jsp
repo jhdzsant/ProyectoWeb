@@ -197,7 +197,7 @@
                                 <a href="javascript:;" data-toggle="collapse" data-target="#oficinas"><i class="fa fa-fw fa-arrows-v"></i>Oficinas<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="oficinas" class="collapse">                        
                                         <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="ControladorG?pagina=consultaoffices">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaOffice">Consulta</a></li>
                                         <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
                                         <li><a href="borrarcustomer.jsp">Borrar</a></li>
                                     </ul>

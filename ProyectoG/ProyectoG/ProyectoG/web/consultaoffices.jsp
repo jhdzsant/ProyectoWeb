@@ -21,7 +21,7 @@
     <body>
         <h1>Consulta de Oficinas</h1>
         <% ArrayList lista = session.getAttribute("consultaOffice") == null?null:(ArrayList)session.getAttribute("consultaOffice"); %>
-        <input type="hidden" name="paginaOffice" value="consultaOffice">
+        <input type="hidden" name="pagina" value="consultaOffice">
         <section>       
             
   <table class="table table-condensed">
@@ -42,7 +42,7 @@
       %>
       <tr>
           
-          <td><a href = "actualizaroffice.jsp?officeCode=<%=of.getOfficeCode()%>&city=<%=of.getCity()%>&phone=<%=of.getPhone()%>&addressLine1=<%=of.getAddressLine1()%>&addressLine2=<%=of.getAddressLine2()%>&state=<%=of.getState()%>&country=<%=of.getCountry()%>&postalCode=<%=of.getPostalCode() %>&territory=<%=of.getTerritory()%>"><%= of.getOfficeCode()%></a></td>
+          <td><a href = "actualizaroffices.jsp?officeCode=<%=of.getOfficeCode()%>&city=<%=of.getCity()%>&phone=<%=of.getPhone()%>&addressLine1=<%=of.getAddressLine1()%>&addressLine2=<%=of.getAddressLine2()%>&state=<%=of.getState()%>&country=<%=of.getCountry()%>&postalCode=<%=of.getPostalCode() %>&territory=<%=of.getTerritory()%>"><%= of.getOfficeCode()%></a></td>
           <td><%=of.getCity() %></td>
           <td><%=of.getPhone() %></td>
           <td><%=of.getAddressLine1() %></td>

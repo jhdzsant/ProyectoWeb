@@ -64,7 +64,7 @@ public class ControladorG extends HttpServlet {
            altaOffices(request,response);
         if(pagina.equals("consultaOffice"))
             consultaOffices(request,response);
-        if(pagina.equals("actualizarOffice"))
+        if(pagina.equals("actualizaroffices"))
             actualizarOffices(request,response);
         if(pagina.equals("borrarOffice"))
             borrarOffices(request,response);
@@ -375,10 +375,10 @@ public class ControladorG extends HttpServlet {
          
         HttpSession session = request.getSession();
     
-            session.removeAttribute("consultaOffices");
+            session.removeAttribute("consultaOffice");
             EmpresaDAO eo = new EmpresaDAO ();
             ArrayList lista = eo.consultaOffices();
-            session.setAttribute("consultaOffices", lista);
+            session.setAttribute("consultaOffice", lista);
             
         
         response.sendRedirect("consultaoffices.jsp");

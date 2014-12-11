@@ -24,7 +24,7 @@
             
  
         <form class="form-horizontal" role="form" action="ControladorG" method="post">
-            <input type="hidden" name="pagina" value="actualizarOffices">
+            <input type="hidden" name="pagina" value="actualizaroffices">
             
               <h1 class="page-header">
           <img src="img/soporte1.png" width="73" height="69">
