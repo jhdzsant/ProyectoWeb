@@ -194,10 +194,10 @@
                          </li>
                          
                            <li>
-                                <a href="javascript:;" data-toggle="collapse" data-target="oficinas"><i class="fa fa-fw fa-arrows-v"></i>Oficinas<i class="fa fa-fw fa-caret-down"></i></a>
+                                <a href="javascript:;" data-toggle="collapse" data-target="#oficinas"><i class="fa fa-fw fa-arrows-v"></i>Oficinas<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="oficinas" class="collapse">                        
                                         <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="customerServlet?paginaCustomer=consultaCustomer">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaoffices">Consulta</a></li>
                                         <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
                                         <li><a href="borrarcustomer.jsp">Borrar</a></li>
                                     </ul>
@@ -207,7 +207,7 @@
                                 <a href="javascript:;" data-toggle="collapse" data-target="#detallaor"><i class="fa fa-fw fa-arrows-v"></i>Detalle de Ordenes<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="detallaor" class="collapse">                        
                                         <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="customerServlet?paginaCustomer=consultaCustomer">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
                                         <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
                                         <li><a href="borrarcustomer.jsp">Borrar</a></li>
                                     </ul>
@@ -218,7 +218,7 @@
                                 <a href="javascript:;" data-toggle="collapse" data-target="#ordenes"><i class="fa fa-fw fa-arrows-v"></i>Ordenes<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="ordenes" class="collapse">                        
                                         <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="customerServlet?paginaCustomer=consultaCustomer">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
                                         <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
                                         <li><a href="borrarcustomer.jsp">Borrar</a></li>
                                     </ul>
@@ -229,7 +229,7 @@
                                 <a href="javascript:;" data-toggle="collapse" data-target="#pagos"><i class="fa fa-fw fa-arrows-v"></i>Pagos<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="pagos" class="collapse">                        
                                         <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="customerServlet?paginaCustomer=consultaCustomer">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
                                         <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
                                         <li><a href="borrarcustomer.jsp">Borrar</a></li>
                                     </ul>
@@ -240,7 +240,7 @@
                                 <a href="javascript:;" data-toggle="collapse" data-target="#lproductos"><i class="fa fa-fw fa-arrows-v"></i>L. Productos<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="lproductos" class="collapse">                        
                                         <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="customerServlet?paginaCustomer=consultaCustomer">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
                                         <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
                                         <li><a href="borrarcustomer.jsp">Borrar</a></li>
                                     </ul>
@@ -251,7 +251,7 @@
                                 <a href="javascript:;" data-toggle="collapse" data-target="#productos"><i class="fa fa-fw fa-arrows-v"></i>Productos<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="productos" class="collapse">                        
                                         <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="customerServlet?paginaCustomer=consultaCustomer">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
                                         <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
                                         <li><a href="borrarcustomer.jsp">Borrar</a></li>
                                     </ul>
