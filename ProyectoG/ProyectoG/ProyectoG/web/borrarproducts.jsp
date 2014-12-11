@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 <%-- 
     Document   : borrarproducts
     Created on : 11/12/2014, 12:50:12 PM
     Author     : Juls
+=======
+
+<%-- 
+    Document   : borrarproducts
+    Created on : 5/12/2014, 04:04:21 PM
+    Author     : Julian
+>>>>>>> origin/master
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -17,13 +25,18 @@
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<<<<<<< HEAD
         <title>Eliminar Cliente.</title>
+=======
+        <title>Eliminar Producto.</title>
+>>>>>>> origin/master
         <jsp:include page="header.jsp" flush="true"/>
     </head>
     <body>
         <br>
         <br>
         <div class="container">
+<<<<<<< HEAD
              <h1>Eliminar Cliente</h1>
         <form role="form" action="ControladorG" method="post">
             <input type="hidden" name="pagina" value="borrarProducts">
@@ -34,6 +47,18 @@
             <button type="submit" class="btn btn-primary">Eliminar</button>
             <a href="ControladorG?pagina=consultaCustomer" class="btn btn-default" role="button">Consulta</a>
             <a href="altacustomers.jsp" class="btn btn-default" role="button">Alta</a>
+=======
+             <h1>Eliminar Producto</h1>
+        <form role="form" action="ControladorG" method="post">
+            <input type="hidden" name="pagina" value="borrarProducts">
+            <div class="form-group" >
+                <label for="productCode" >Codigo del Producto</label>
+                <input type="text" class="form-control" id="productCode" placeholder="Ingrese ID del Cliente" name="productCode" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Eliminar</button>
+            <a href="ControladorG?pagina=consultaProducts" class="btn btn-default" role="button">Consulta</a>
+            <a href="altaproducts.jsp" class="btn btn-default" role="button">Alta</a>
+>>>>>>> origin/master
             
         </form>
         </div>

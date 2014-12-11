@@ -14,7 +14,7 @@
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Actualiza Oficina.</title>
+        <title>Actualiza Order.</title>
         <jsp:include page="header.jsp" flush="true"/>
     </head>
     <body>
@@ -80,7 +80,7 @@
             <div class="form-group">
                 <div class="col-xs-offset-2 col-xs-3">
                     <button type="submit" class="btn btn-primary">Guardar</button>
-                    <a href="Controlador?paginaOrder=altaOrder" class="btn btn-default" role="button">Consulta</a>
+                    <a href="Controlador?paginaOrders=altaOrders" class="btn btn-default" role="button">Consulta</a>
                 </div>
             </div>
         </form>
