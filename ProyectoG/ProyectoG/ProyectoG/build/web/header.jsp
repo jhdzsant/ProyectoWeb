@@ -196,20 +196,20 @@
                            <li>
                                 <a href="javascript:;" data-toggle="collapse" data-target="#oficinas"><i class="fa fa-fw fa-arrows-v"></i>Oficinas<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="oficinas" class="collapse">                        
-                                        <li><a href="altacustomers.jsp">Alta</a></li>
+                                        <li><a href="altaoficina.jsp">Alta</a></li>
                                         <li><a href="ControladorG?pagina=consultaOffice">Consulta</a></li>
-                                        <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
-                                        <li><a href="borrarcustomer.jsp">Borrar</a></li>
+                                        <li><a href="actualizaroffices.jsp">Actualizar</a></li>
+                                        <li><a href="borraroffices.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          
                            <li>
                                 <a href="javascript:;" data-toggle="collapse" data-target="#detallaor"><i class="fa fa-fw fa-arrows-v"></i>Detalle de Ordenes<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="detallaor" class="collapse">                        
-                                        <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
-                                        <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
-                                        <li><a href="borrarcustomer.jsp">Borrar</a></li>
+                                        <li><a href="altaordersdetails.jsp">Alta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaOrderdetails">Consulta</a></li>
+                                        <li><a href="actualizarordersdetails.jsp">Actualizar</a></li>
+                                        <li><a href="borrarorderdetails.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          
@@ -217,10 +217,10 @@
                            <li>
                                 <a href="javascript:;" data-toggle="collapse" data-target="#ordenes"><i class="fa fa-fw fa-arrows-v"></i>Ordenes<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="ordenes" class="collapse">                        
-                                        <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
-                                        <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
-                                        <li><a href="borrarcustomer.jsp">Borrar</a></li>
+                                        <li><a href="altaorders.jsp">Alta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaOrders">Consulta</a></li>
+                                        <li><a href="actualizarorders.jsp">Actualizar</a></li>
+                                        <li><a href="borrarorders.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          
@@ -228,10 +228,10 @@
                            <li>
                                 <a href="javascript:;" data-toggle="collapse" data-target="#pagos"><i class="fa fa-fw fa-arrows-v"></i>Pagos<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="pagos" class="collapse">                        
-                                        <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
-                                        <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
-                                        <li><a href="borrarcustomer.jsp">Borrar</a></li>
+                                        <li><a href="altapayments.jsp">Alta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaPayments">Consulta</a></li>
+                                        <li><a href="actualizarpayments.jsp">Actualizar</a></li>
+                                        <li><a href="borrarpayments.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          
@@ -250,10 +250,10 @@
                            <li>
                                 <a href="javascript:;" data-toggle="collapse" data-target="#productos"><i class="fa fa-fw fa-arrows-v"></i>Productos<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="productos" class="collapse">                        
-                                        <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
-                                        <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
-                                        <li><a href="borrarcustomer.jsp">Borrar</a></li>
+                                        <li><a href="altaproducts.jsp">Alta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaproducts">Consulta</a></li>
+                                        <li><a href="actualizarproducts.jsp">Actualizar</a></li>
+                                        <li><a href="borrarproducts.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          
