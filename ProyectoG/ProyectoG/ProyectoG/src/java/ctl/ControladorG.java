@@ -624,7 +624,7 @@ public class ControladorG extends HttpServlet {
        boolean b = au.borrarOrders(ord);
        if(b)
        {
-           response.sendRedirect("borrarorder.jsp");
+           response.sendRedirect("borrarorders.jsp");
            System.out.println(b);
        }
        else
@@ -768,7 +768,7 @@ public class ControladorG extends HttpServlet {
             session.setAttribute("consultaProductlines", lista);
             
         
-        response.sendRedirect("consultaproductlines.jsp");
+        response.sendRedirect("consultaproductslines.jsp");
     }
     
       protected void actualizarProductlines(HttpServletRequest request, HttpServletResponse response)
@@ -776,20 +776,22 @@ public class ControladorG extends HttpServlet {
     {
         
              
-         Payments pay = new Payments();
+        Productlines prodl = new Productlines();
          
-         pay.setCustomerNumber(Integer.parseInt(request.getParameter("paytomerNumber")));
-         pay.setCheckNumber(request.getParameter("checkNumber"));
-         pay.setPaymentDate(request.getParameter("paymentDate"));
-         pay.setAmount(Double.parseDouble(request.getParameter("amount")));
+         prodl.setProductLine(request.getParameter("productLine"));
+         prodl.setTextDescription(request.getParameter("textDescription"));
+         prodl.setHtmlDescription(request.getParameter("htmlDescription"));
+         prodl.setImage(request.getParameter("image"));
+         
+         
          
          
        EmpresaDAO au =new EmpresaDAO();
        
-       boolean b = au.actualizarProductlines(pay);
+       boolean b = au.actualizarProductlines(prodl);
        if(b)
        {
-           response.sendRedirect("actualizarcustomers.jsp");
+           response.sendRedirect("actualizarproductlines.jsp");
            
            System.out.println(b);
        }
@@ -802,18 +804,18 @@ public class ControladorG extends HttpServlet {
             throws ServletException, IOException
      {
          
-        Payments pay = new Payments();
+        Productlines p = new Productlines();
          
-         pay.setCustomerNumber(Integer.parseInt(request.getParameter("paytomerNumber")));
+         p.setProductLine(request.getParameter("productLine"));
          
          
          
        EmpresaDAO ep =new EmpresaDAO ();
        
-       boolean b = ep.borrarProductlines(pay);
+       boolean b = ep.borrarProductlines(p);
        if(b)
        {
-           response.sendRedirect("borrarcustomer.jsp");
+           response.sendRedirect("borrarproductslines.jsp");
            System.out.println(b);
        }
        else

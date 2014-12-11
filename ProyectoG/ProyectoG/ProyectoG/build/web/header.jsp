@@ -239,10 +239,10 @@
                            <li>
                                 <a href="javascript:;" data-toggle="collapse" data-target="#lproductos"><i class="fa fa-fw fa-arrows-v"></i>L. Productos<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="lproductos" class="collapse">                        
-                                        <li><a href="altacustomers.jsp">Alta</a></li>
-                                        <li><a href="ControladorG?pagina=consultaCustomer">Consulta</a></li>
-                                        <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
-                                        <li><a href="borrarcustomer.jsp">Borrar</a></li>
+                                        <li><a href="altaproductslines.jsp">Alta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaProductlines">Consulta</a></li>
+                                        <li><a href="actualizarproductslines.jsp">Actualizar</a></li>
+                                        <li><a href="borrarproductslines.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          
@@ -251,7 +251,7 @@
                                 <a href="javascript:;" data-toggle="collapse" data-target="#productos"><i class="fa fa-fw fa-arrows-v"></i>Productos<i class="fa fa-fw fa-caret-down"></i></a>
                                     <ul id="productos" class="collapse">                        
                                         <li><a href="altaproducts.jsp">Alta</a></li>
-                                        <li><a href="ControladorG?pagina=consultaproducts">Consulta</a></li>
+                                        <li><a href="ControladorG?pagina=consultaProducts">Consulta</a></li>
                                         <li><a href="actualizarproducts.jsp">Actualizar</a></li>
                                         <li><a href="borrarproducts.jsp">Borrar</a></li>
                                     </ul>

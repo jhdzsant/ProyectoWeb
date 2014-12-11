@@ -26,13 +26,6 @@
   
     <body>
          <jsp:include page="header.jsp" flush="true"/>
- 
-        
-  
-    
- 
-                    
-       
    
        <%  ArrayList lista = session.getAttribute("consultaCustomer") == null?null:(ArrayList)session.getAttribute("consultaCustomer"); %>
         <input type="hidden" name="pagina" value="consultaCustomer">
