@@ -42,7 +42,7 @@
             <div class="form-group">
                 <label class="control-label col-xs-2" for="EmployeeNumber">ID de empleado:</label>
                     <div class="col-xs-3">
-                        <input type="text" class="form-control" id="EmployeeNumber" placeholder="Ingrese ID del Empleado" name="EmployeeNumber" value="<%=request.getParameter("EmployeeNumber")%>
+                        <input type="text" class="form-control" id="EmployeeNumber" placeholder="Ingrese ID del Empleado" name="EmployeeNumber" value="<%=request.getParameter("EmployeeNumber")%>">
                     </div>
             </div>
             
@@ -51,11 +51,11 @@
             <div class="form-group" >
                    <label class="control-label col-xs-2" for="FirstName" >Nombre:</label>
                         <div class="col-xs-3">
-                            <input type="text" class="form-control" id="FirstName" placeholder="Ingrese el nombre:" name="FirstName" value="<%=request.getParameter("FirstName")%>
+                            <input type="text" class="form-control" id="FirstName" placeholder="Ingrese el nombre:" name="FirstName" value="<%=request.getParameter("FirstName")%>">
                         </div>
                 <label class="control-label col-xs-2" for="LastName" >Apellido:</label>
                     <div class="col-xs-3">
-                        <input type="text" class="form-control" id="LastName" placeholder="Ingrese el Apellido:" name="LastName" value="<%=request.getParameter("LastName")%>
+                        <input type="text" class="form-control" id="LastName" placeholder="Ingrese el Apellido:" name="LastName" value="<%=request.getParameter("LastName")%>">
                     </div>
             </div>
                 
@@ -64,7 +64,7 @@
             <div class="form-group" >
                 <label class="control-label col-xs-2" for="Extension" >Extensión:</label>
                     <div class="col-xs-3">                
-                        <input type="text" class="form-control" id="Extension" placeholder="Ingrese la extensión" name="Extension" value="<%=request.getParameter("Extension")%>
+                        <input type="text" class="form-control" id="Extension" placeholder="Ingrese la extensión" name="Extension" value="<%=request.getParameter("Extension")%>">
                     </div>
             </div>
             
@@ -72,11 +72,11 @@
              <div class="form-group" >
                 <label class="control-label col-xs-2"for="Email" >Email:</label>
                     <div class="col-xs-3">  
-                        <input type="text" class="form-control" id="Email" placeholder="Ingresa Email" name="Email" value="<%=request.getParameter("Email")%>
+                        <input type="text" class="form-control" id="Email" placeholder="Ingresa Email" name="Email" value="<%=request.getParameter("Email")%>">
                     </div>
                 <label class="control-label col-xs-2" for="ReportsTo" >Reportar a:</label>
                     <div class="col-xs-3">  
-                        <input type="text" class="form-control" id="ReportsTo" placeholder="Enviar informes a" name="ReportsTo" value="<%=request.getParameter("ReportsTo")%>
+                        <input type="text" class="form-control" id="ReportsTo" placeholder="Enviar informes a" name="ReportsTo" value="<%=request.getParameter("ReportsTo")%>">
                     </div> 
             </div>
             
@@ -84,11 +84,11 @@
             <div class="form-group" >
                 <label class="control-label col-xs-2" for="JobTitle" >Puesto:</label>
                     <div class="col-xs-3">  
-                        <input type="text" class="form-control" id="JobTitle" placeholder="Ingresa tu puesto" name="JobTitle" value="<%=request.getParameter("JobTitle")%>
+                        <input type="text" class="form-control" id="JobTitle" placeholder="Ingresa tu puesto" name="JobTitle" value="<%=request.getParameter("JobTitle")%>">
                     </div>
                  <label class="control-label col-xs-2" for="OfficeCode" >Clave de oficina:</label>
                     <div class="col-xs-3">  
-                        <input type="text" class="form-control" id="OfficeCode" placeholder="Ingresa la clave de la oficina" name="OfficeCode" value="<%=request.getParameter("OfficeCode")%>
+                        <input type="text" class="form-control" id="OfficeCode" placeholder="Ingresa la clave de la oficina" name="OfficeCode" value="<%=request.getParameter("OfficeCode")%>">
                     </div> 
               
             </div>

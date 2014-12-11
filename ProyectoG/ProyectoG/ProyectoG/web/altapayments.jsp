@@ -5,8 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -25,7 +24,7 @@
         <div class="container">
              <h1>Alta  Pagos</h1>
         <form role="form" action="ControladorG" method="post">
-            <input type="hidden" name="pagina" value="altaOrdersDetails">
+            <input type="hidden" name="pagina" value="altaPayments">
             
             <div class="form-group" >
                 <label for="customerNumber" >ID del Cliente</label>
@@ -36,7 +35,7 @@
                 <input type="text" class="form-control" id="checkNumber" placeholder="Ingrese numero de verificacion" name="checkNumber" required >
             </div>
             <div class="form-group" >
-                <label for="paymentDate" >Fecha de Pagor</label>
+                <label for="paymentDate" >Fecha de Pago</label>
                 <input type="text" class="form-control" id="paymentDate" placeholder="Ingrese Fecha de Pago" name="paymentDate" required>
             </div>
             <div class="form-group" >
@@ -52,6 +51,6 @@
     </body>
     <br>
     <footer>
-        <jsp:include page="componentes/footer.jsp" flush="true"/>
+        <jsp:include page="footer.jsp" flush="true"/>
     </footer>
 </html>

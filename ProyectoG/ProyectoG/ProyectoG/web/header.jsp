@@ -188,8 +188,8 @@
                                     <ul id="empleados" class="collapse">                        
                                         <li><a href="altaempleados.jsp">Alta</a></li>
                                         <li><a href="ControladorG?pagina=consultaEmployess">Consulta</a></li>
-                                        <li><a href="actualizarcustomers.jsp">Actualizar</a></li>
-                                        <li><a href="borrarcustomer.jsp">Borrar</a></li>
+                                        <li><a href="actualizaremployess.jsp">Actualizar</a></li>
+                                        <li><a href="borraremployees.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          
@@ -208,7 +208,7 @@
                                     <ul id="detallaor" class="collapse">                        
                                         <li><a href="altaordersdetails.jsp">Alta</a></li>
                                         <li><a href="ControladorG?pagina=consultaOrderdetails">Consulta</a></li>
-                                        <li><a href="actualizarordersdetails.jsp">Actualizar</a></li>
+                                        <li><a href="actualizarorderdetails.jsp">Actualizar</a></li>
                                         <li><a href="borrarorderdetails.jsp">Borrar</a></li>
                                     </ul>
                          </li>
@@ -241,8 +241,8 @@
                                     <ul id="lproductos" class="collapse">                        
                                         <li><a href="altaproductslines.jsp">Alta</a></li>
                                         <li><a href="ControladorG?pagina=consultaProductlines">Consulta</a></li>
-                                        <li><a href="actualizarproductslines.jsp">Actualizar</a></li>
-                                        <li><a href="borrarproductslines.jsp">Borrar</a></li>
+                                        <li><a href="actualizarproductlines.jsp">Actualizar</a></li>
+                                        <li><a href="borrarproductlines.jsp">Borrar</a></li>
                                     </ul>
                          </li>
                          

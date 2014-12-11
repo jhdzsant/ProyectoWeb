@@ -3,13 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Julian/Documents/NetBeansProjects/ProyectoG/ProyectoG/web/altacustomers.jsp</file>
-            <file>file:/C:/Users/Julian/Documents/NetBeansProjects/ProyectoG/ProyectoG/src/java/ctl/ControladorG.java</file>
-            <file>file:/C:/Users/Julian/Documents/NetBeansProjects/ProyectoG/ProyectoG/src/java/DatosIngresa/Offices.java</file>
-            <file>file:/C:/Users/Julian/Documents/NetBeansProjects/ProyectoG/ProyectoG/src/java/DatosIngresa/EmpresaDAO.java</file>
-            <file>file:/C:/Users/Julian/Documents/NetBeansProjects/ProyectoG/ProyectoG/web/actualizarcustomers.jsp</file>
-            <file>file:/C:/Users/Julian/Documents/NetBeansProjects/ProyectoG/ProyectoG/web/index.jsp</file>
-            <file>file:/C:/Users/Julian/Documents/NetBeansProjects/ProyectoG/ProyectoG/web/header.jsp</file>
+            <file>file:/C:/xampp/htdocs/ProyectoWeb/ProyectoG/ProyectoG/ProyectoG/web/altaproducts.jsp</file>
+            <file>file:/C:/xampp/htdocs/ProyectoWeb/ProyectoG/ProyectoG/ProyectoG/web/actualizarproducts.jsp</file>
+            <file>file:/C:/xampp/htdocs/ProyectoWeb/ProyectoG/ProyectoG/ProyectoG/src/java/ctl/ControladorG.java</file>
+            <file>file:/C:/xampp/htdocs/ProyectoWeb/ProyectoG/ProyectoG/ProyectoG/web/consultaproducts.jsp</file>
+            <file>file:/C:/xampp/htdocs/ProyectoWeb/ProyectoG/ProyectoG/ProyectoG/web/header.jsp</file>
         </group>
     </open-files>
 </project-private>

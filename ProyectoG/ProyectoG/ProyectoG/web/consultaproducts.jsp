@@ -26,7 +26,7 @@
     <br>
     <body>
         <h1>Consulta de Productos</h1>
-        <% ArrayList lista = session.getAttribute("consultaProduct") == null?null:(ArrayList)session.getAttribute("consultaProduct"); %>
+        <% ArrayList lista = session.getAttribute("consultaProducts") == null?null:(ArrayList)session.getAttribute("consultaProducts"); %>
 
         <input type="hidden" name="pagina" value="consultaProducts">
 
@@ -52,11 +52,6 @@
       <tr>
           <td><a href = "actualizarproducts.jsp?productCode=<%=prod.getProductCode()%>&productName=<%=prod.getProductName()%>&productLine=<%=prod.getProductLine()%>&productScale=<%=prod.getProductScale()%>&productVendor=<%=prod.getProductVendor()%>&productDescription=<%=prod.getProductDescription()%>&quantityInStock=<%=prod.getQuantityInStock()%>&buyPrice=<%=prod.getBuyPrice()%>&MSRP=<%=prod.getMSRP()%>"><%= prod.getProductCode()%></a></td>
 
-          product prod = (product)lista.get(i); 
-      %>
-      <tr>
-          <td><a href = "actualizarproduct.jsp?productCode=<%=prod.getProductCode()%>&productName=<%=prod.getProductName()%>&productLine=<%=prod.getProductLine()%>&productScale=<%=prod.getProductScale()%>&productVendor=<%=prod.getProductVendor()%>&productDescription=<%=prod.getProductDescription()%>&quantityInStock=<%=prod.getQuantityInStock()%>&buyPrice=<%=prod.getBuyPrice()%>&MSRP=<%=prod.getMSRP()%>"><%= prod.getProductCode()%></a></td>
-
           <td><%=prod.getProductName()%></td>
           <td><%=prod.getProductLine()%></td>
           <td><%=prod.getProductScale() %></td>
@@ -74,7 +69,6 @@
 
         <jsp:include page="footer.jsp" flush="true"/>
 
-        <jsp:include page="componentes/footer.jsp" flush="true"/>
 
     </footer>
 </html>

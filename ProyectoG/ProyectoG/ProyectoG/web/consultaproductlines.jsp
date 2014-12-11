@@ -14,14 +14,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Consulta de Lineas de Productos</title>
-        <jsp:include page="componentes/header.jsp" flush="true"/>
+        <jsp:include page="header.jsp" flush="true"/>
     </head>
     <br>
     <br>
     <body>
         <h1>Consulta de Lineas de Productos</h1>
-        <% ArrayList lista = session.getAttribute("consultaProductLine") == null?null:(ArrayList)session.getAttribute("consultaProductLine"); %>
-        <input type="hidden" name="paginaProductLine" value="consultaProductLine">
+        <% ArrayList lista = session.getAttribute("consultaProductlines") == null?null:(ArrayList)session.getAttribute("consultaProductlines"); %>
+        <input type="hidden" name="pagina" value="consultaProductlines">
         <section>       
             
   <table class="table table-condensed">
@@ -33,11 +33,11 @@
       </tr>
       
       <% for(int i=0;i<lista.size();i++){
-          productLine proli = (productLine)lista.get(i); 
+          Productlines proli = (Productlines)lista.get(i); 
       %>
       <tr>
           
-          <td><a href = "actualizarproductLine.jsp?productLine=<%=proli.getProductLine()%>&textDescription=<%=proli.getTextDescription()%>&htmlDescription=<%=proli.getHtmlDescription()%>&image=<%=proli.getImage()%>"><%= proli.getProductLine()%></a></td>
+          <td><a href = "actualizarproductlines.jsp?productLine=<%=proli.getProductLine()%>&textDescription=<%=proli.getTextDescription()%>&htmlDescription=<%=proli.getHtmlDescription()%>&image=<%=proli.getImage()%>"><%= proli.getProductLine()%></a></td>
           <td><%=proli.getTextDescription()%></td>
           <td><%=proli.getHtmlDescription()%></td>
           <td><%=proli.getImage() %></td>  
@@ -47,6 +47,6 @@
         </section>
     </body>
     <footer>
-        <jsp:include page="componentes/footer.jsp" flush="true"/>
+        <jsp:include page="footer.jsp" flush="true"/>
     </footer>
 </html>

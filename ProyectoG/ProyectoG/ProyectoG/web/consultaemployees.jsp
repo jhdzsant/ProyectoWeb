@@ -62,6 +62,6 @@
         </section>
     </body>
     <footer>
-        <jsp:include page="componentes/footer.jsp" flush="true"/>
+        <jsp:include page="footer.jsp" flush="true"/>
     </footer>
 </html>

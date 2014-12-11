@@ -6,8 +6,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
 <html>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <script type="text/javascript" src="js/jquery-2.1.1.js"></script>

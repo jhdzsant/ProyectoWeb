@@ -19,8 +19,8 @@
     <br>
     <body>
         <h1>Consulta de Pedidos</h1>
-        <% ArrayList lista = session.getAttribute("consultaOrder") == null?null:(ArrayList)session.getAttribute("consultaOrder"); %>
-        <input type="hidden" name="paginaOrder" value="consultaOrder">
+        <% ArrayList lista = session.getAttribute("consultaOrders") == null?null:(ArrayList)session.getAttribute("consultaOrders"); %>
+        <input type="hidden" name="pagina" value="consultaOrders">
         <section>       
             
   <table class="table table-condensed">
@@ -39,7 +39,7 @@
       %>
       <tr>
           
-          <td><a href = "actualizarorder.jsp?orderNumber=<%=ord.getOrderNumber()%>&orderDate=<%=ord.getOrderDate()%>&requiredDate=<%=ord.getRequiredDate()%>&shippedDate=<%=ord.getShippedDate()%>&status=<%=ord.getStatus()%>&comments=<%=ord.getComments()%>&customerNumber=<%=ord.getCustomerNumber()%>"><%= ord.getOrderNumber()%></a></td>
+          <td><a href = "actualizarorders.jsp?orderNumber=<%=ord.getOrderNumber()%>&orderDate=<%=ord.getOrderDate()%>&requiredDate=<%=ord.getRequiredDate()%>&shippedDate=<%=ord.getShippedDate()%>&status=<%=ord.getStatus()%>&comments=<%=ord.getComments()%>&customerNumber=<%=ord.getCustomerNumber()%>"><%= ord.getOrderNumber()%></a></td>
           <td><%=ord.getOrderDate()%></td>
           <td><%=ord.getRequiredDate() %></td>
           <td><%=ord.getShippedDate() %></td>

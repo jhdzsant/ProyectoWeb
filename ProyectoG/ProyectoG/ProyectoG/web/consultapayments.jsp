@@ -24,8 +24,8 @@
     <br>
     <body>
         <h1>Consulta de Pagos</h1>
-        <% ArrayList lista = session.getAttribute("consultaPayment") == null?null:(ArrayList)session.getAttribute("consultaPayment"); %>
-        <input type="hidden" name="paginaPayment" value="consultaPayment">
+        <% ArrayList lista = session.getAttribute("consultaPayments") == null?null:(ArrayList)session.getAttribute("consultaPayments"); %>
+        <input type="hidden" name="pagina" value="consultaPayments">
         <section>       
             
   <table class="table table-condensed">
@@ -41,7 +41,7 @@
       %>
       <tr>
           
-          <td><a href = "actualizarpayment.jsp?paytomerNumber=<%=pay.getCustomerNumber()%>&checkNumber=<%=pay.getCheckNumber()%>&paymentDate=<%=pay.getPaymentDate()%>&amount=<%=pay.getAmount()%>"><%= pay.getCustomerNumber()%></a></td>
+          <td><a href = "actualizarpayments.jsp?paytomerNumber=<%=pay.getCustomerNumber()%>&checkNumber=<%=pay.getCheckNumber()%>&paymentDate=<%=pay.getPaymentDate()%>&amount=<%=pay.getAmount()%>"><%= pay.getCustomerNumber()%></a></td>
           <td><%=pay.getCheckNumber()%></td>
           <td><%=pay.getPaymentDate() %></td>
           <td><%=pay.getAmount() %></td>

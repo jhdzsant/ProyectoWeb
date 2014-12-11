@@ -572,10 +572,10 @@ public class ControladorG extends HttpServlet {
          
         HttpSession session = request.getSession();
     
-            session.removeAttribute("consultaorders");
+            session.removeAttribute("consultaOrders");
             EmpresaDAO au = new EmpresaDAO();
             ArrayList lista = au.consultaOrders();
-            session.setAttribute("consultaorders", lista);
+            session.setAttribute("consultaOrders", lista);
             
         
         response.sendRedirect("consultaorders.jsp");
@@ -768,7 +768,7 @@ public class ControladorG extends HttpServlet {
             session.setAttribute("consultaProductlines", lista);
             
         
-        response.sendRedirect("consultaproductslines.jsp");
+        response.sendRedirect("consultaproductlines.jsp");
     }
     
       protected void actualizarProductlines(HttpServletRequest request, HttpServletResponse response)

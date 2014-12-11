@@ -24,14 +24,18 @@
              <h1>Alta  Ordenes de DEtalle</h1>
         <form role="form" action="ControladorG" method="post">
             <input type="hidden" name="pagina" value="altaOrdersDetails">
-            
-            <div class="form-group" >
-                <label for="orderNumber" >ID de Orden</label>
-                <input type="text" class="form-control" id="orderNumber" placeholder="Ingrese el Id de Orden" name="orderNumber" required>
+            <div class="form-group">
+                <div>
+                    <label for="orderNumber" >ID de Orden</label>
+                    <input type="text" class="form-control" id="orderNumber" placeholder="Ingrese el Id de Orden" name="orderNumber" required>
+                </div>
+                <div >
+                    <label for="productCode" >ID de producto</label>
+                    <input type="text" class="form-control" id="productCode" placeholder="ID de Producto" name="productCode" required >
+                </div> 
             </div>
-            <div class="form-group" >
-                <label for="productCode" >ID de producto</label>
-                <input type="text" class="form-control" id="productCode" placeholder="ID de Producto" name="productCode" required >
+          
+                <div class="form-group">
             </div>
             <div class="form-group" >
                 <label for="quantityOrdered" >Cantidad a ordenar</label>
@@ -46,7 +50,7 @@
                 <label for="orderLineNumber" >ID Linea de Orden</label>
                 <input type="text" class="form-control" id="orderLineNumber" placeholder="Ingrese el ID de linea de orden" name="orderLineNumber" required>
             </div>
-   
+   </div>
             <button type="submit" class="btn btn-primary">Guardar</button>
             <a href="customerServlet?pagina=consultaCustomer" class="btn btn-default" role="button">Consulta</a>
             
@@ -55,7 +59,7 @@
     </body>
     <br>
     <footer>
-        <jsp:include page="componentes/footer.jsp" flush="true"/>
+        <jsp:include page="footer.jsp" flush="true"/>
     </footer>
 </html>
 
