@@ -23,8 +23,8 @@
                 <input type="text" class="form-control" id="officeCode" placeholder="Ingrese ID de Oficina" name="officeCode" required>
             </div>
             <button type="submit" class="btn btn-primary">Eliminar</button>
-            <a href="customerServlet?paginaCustomer=consultaCustomer" class="btn btn-default" role="button">Consulta</a>
-            <a href="altacustomer.jsp" class="btn btn-default" role="button">Alta</a>
+            <a href="ControladorG?pagina=consultaOffice" class="btn btn-default" role="button">Consulta</a>
+            <a href="altaoficina.jsp" class="btn btn-default" role="button">Alta</a>
             
         </form>
         </div>

@@ -23,8 +23,8 @@
                 <input type="text" class="form-control" id="orderNumber" placeholder="Ingrese ID de la orden" name="orderNumber" required>
             </div>
             <button type="submit" class="btn btn-primary">Eliminar</button>
-            <a href="customerServlet?paginaCustomer=consultaCustomer" class="btn btn-default" role="button">Consulta</a>
-            <a href="altacustomer.jsp" class="btn btn-default" role="button">Alta</a>
+            <a href="ControladorG?pagina=consultaOrders" class="btn btn-default" role="button">Consulta</a>
+            <a href="altaorders.jsp" class="btn btn-default" role="button">Alta</a>
             
         </form>
         </div>

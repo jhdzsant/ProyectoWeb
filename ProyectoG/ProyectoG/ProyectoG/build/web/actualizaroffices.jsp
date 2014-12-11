@@ -93,7 +93,7 @@
             <div class="form-group">
                 <div class="col-xs-offset-2 col-xs-3">
                     <button type="submit" class="btn btn-primary">Guardar</button>
-                    <a href="Controlador?paginaOffice=altaOffice" class="btn btn-default" role="button">Consulta</a>
+                    <a href="ControladorG?pagina=actualizarEmployess" class="btn btn-default" role="button">Consulta</a>
                 </div>
             </div>
         </form>
